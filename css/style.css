@@ -49,6 +49,11 @@ header {
 
 /*Photos section*/
 
-#photos img{
-    max-width:40%
+.imglayoutrow{
+    display: flex;
+}
+
+.imglayoutcolumn{
+    flex: 50%;
+    padding: 5px;
 }
